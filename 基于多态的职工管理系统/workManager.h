@@ -22,4 +22,15 @@ public:
 	bool m_FileIsEmpty;
 	int get_EmpNum();
 	void init_Emp();
+	void show_Emp();
+	void del_Emp();
+	int Isexist(int id);
+	void Isexistname(string name);
+	void Mod_Emp();
+	void Find_Emp();
+	void Sort_Emp();
+	void ascend_order(int left, int right, Worker** m_EmpArr);
+	void descend_order(int left, int right, Worker** m_EmpArr);
+	void Ensure_consist(int Id);
+	void Clean_file();
 };
